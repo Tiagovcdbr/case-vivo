@@ -1,0 +1,30 @@
+/* Página de Login */
+.login-page {
+    background: linear-gradient(135deg, #1a73e8, #673ab7);
+    height: 100vh;
+    color: white;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+}
+
+
+.sidebar {
+    width: 200px;
+}
+
+.sidebar h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.sidebar .nav-link {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.content {
+    flex-grow: 1;
+}
