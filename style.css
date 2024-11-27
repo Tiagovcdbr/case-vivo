@@ -1,6 +1,6 @@
 /* Página de Login */
 .login-page {
-    background: linear-gradient(135deg, #1a73e8, #673ab7);
+    background: linear-gradient(135deg, #072e61, #26104b);
     height: 100vh;
     color: white;
 }
@@ -27,4 +27,12 @@
 
 .content {
     flex-grow: 1;
+}
+
+.bg-menu {
+    background: linear-gradient(135deg, #072e61, #26104b);
+}
+
+.bg-side {
+  background: linear-gradient(135deg, #053472, #26104b);
 }
