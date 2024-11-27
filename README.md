@@ -9,15 +9,15 @@
 
 #### -- Como solicitadado foi feito a tela com cadastro, tabela e algumas melhorias, abaixo está as telas e as etapas do processo!
 
-´´´´
+````
 #### Na tela de Login
 
 #### usuario: user
 #### senha: adm
 
-´´´´
+````
 
-´´´´
+````
 #### -- Etapas do processo!
 
 #### -- Tela de Login
@@ -38,7 +38,7 @@
 #### -- Tela de cadastro / afirmação de exclusão no modal
 ![print6](https://github.com/user-attachments/assets/544964b2-da1b-45af-98b3-d44dc9e771dd)
 
-´´´´
+````
 
 #### -- Foi implementado tela de login
 #### -- Uma tela separada para cadastro
