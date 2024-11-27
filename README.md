@@ -13,8 +13,10 @@
 ´´´´
 #### -- Etapas do processo!
 
+#### -- Tela de Login
 ![print1](https://github.com/user-attachments/assets/979df011-d773-44b8-a523-74601a028dfb)
 
+#### -- Tela de cadastro
 ![print2](https://github.com/user-attachments/assets/78e4cf0c-fdd6-42e9-b7cf-37ef70814b37)
 
 ![print3](https://github.com/user-attachments/assets/370d685e-49e6-4618-82e0-760a09607aea)
