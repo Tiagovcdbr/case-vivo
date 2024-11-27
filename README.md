@@ -9,6 +9,13 @@
 
 #### -- Como solicitadado foi feito a tela com cadastro, tabela e algumas melhorias, abaixo está as telas e as etapas do processo!
 
+´´´´
+#### Na tela de Login
+
+#### usuario: user
+#### senha: adm
+
+´´´´
 
 ´´´´
 #### -- Etapas do processo!
