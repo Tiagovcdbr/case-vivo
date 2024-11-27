@@ -25,10 +25,20 @@
 #### -- Tela de cadastro / com alteração de cadastro
 ![print4](https://github.com/user-attachments/assets/873beaa1-d887-4d96-b34d-0e1d639a0a59)
 
+#### -- Tela de cadastro / pergunta sobre exclusão de usuário
 ![print5](https://github.com/user-attachments/assets/28184110-f66c-43cf-93f0-da91a55d7150)
 
+#### -- Tela de cadastro / afirmação de exclusão no modal
 ![print6](https://github.com/user-attachments/assets/544964b2-da1b-45af-98b3-d44dc9e771dd)
 
 ´´´´
+
+#### -- Foi implementado tela de login
+#### -- Uma tela separada para cadastro
+#### -- Uma tela separada para tabela
+#### -- Menu responsivo ao chegar em determinada resolução
+
+
+#### -- Enoy -- ####
 
 
