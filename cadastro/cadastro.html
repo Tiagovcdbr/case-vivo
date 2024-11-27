@@ -8,108 +8,78 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="cadastro.css" />
+    <link rel="stylesheet" href="../style.css" />
   </head>
   <body>
-    <div class="container my-5">
-      <!-- Formulário -->
-      <h1 class="text-center mb-4">Cadastro de Usuários</h1>
-      <form id="userForm" class="border rounded p-4 shadow">
-        <div class="mb-3">
-          <label for="name" class="form-label">Nome do Usuário</label>
-          <input
-            type="text"
-            id="name"
-            class="form-control"
-            placeholder="Digite o nome do usuário"
-            required
-          />
-        </div>
-        <div class="mb-3">
-          <label for="email" class="form-label">E-mail</label>
-          <input
-            type="email"
-            id="email"
-            class="form-control"
-            placeholder="Digite o e-mail"
-            required
-          />
-        </div>
-        <div class="mb-3">
-          <label for="profile" class="form-label">Perfil</label>
-          <select id="profile" class="form-select" required>
-            <option value="">Selecione</option>
-            <option value="Gerente">Gerente</option>
-            <option value="Coordenador">Coordenador</option>
-            <option value="Analista">Analista</option>
-          </select>
-        </div>
-        <div class="mb-3">
-          <label for="whatsapp" class="form-label">WhatsApp</label>
-          <input
-            type="text"
-            id="whatsapp"
-            class="form-control"
-            placeholder="(11) 90000-0000"
-            required
-          />
-        </div>
-        <button type="submit" class="btn btn-primary w-100">
-          Adicionar Usuário
-        </button>
-      </form>
-    </div>
+    <div class="d-flex">
+      <!-- Menu Lateral -->
+      <nav class="sidebar bg-dark text-white vh-100 p-3">
+        <h4>Menu</h4>
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="/cadastro/cadastro.html">Cadastro</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="/tabela/tabela.html">Tabela</a>
+          </li>
+        </ul>
+      </nav>
 
-    <!-- Tabela -->
-    <div class="container my-5">
-      <h2 class="text-center mb-4">Usuários Cadastrados</h2>
-      <table class="table table-striped table-bordered shadow">
-        <thead class="table-dark">
-          <tr>
-            <th>Nome</th>
-            <th>E-mail</th>
-            <th>Perfil</th>
-            <th>WhatsApp</th>
-            <th>Ações</th>
-          </tr>
-        </thead>
-        <tbody id="userTable"></tbody>
-      </table>
-    </div>
-
-    <!-- Modal -->
-    <div class="modal fade" id="deleteModal" tabindex="-1" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Confirmar Exclusão</h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            Tem certeza de que deseja excluir este usuário?
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal"
-            >
-              Cancelar
+      <!-- Conteúdo Principal -->
+      <div class="content w-100">
+        <header class="p-3 bg-primary text-white text-center">
+          <h1>Cadastro de Usuários</h1>
+        </header>
+        <div class="container my-5">
+          <form id="userForm" class="border rounded p-4 shadow">
+            <div class="mb-3">
+              <label for="name" class="form-label">Nome do Usuário</label>
+              <input
+                type="text"
+                id="name"
+                class="form-control"
+                placeholder="Digite o nome do usuário"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">E-mail</label>
+              <input
+                type="email"
+                id="email"
+                class="form-control"
+                placeholder="Digite o e-mail"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="profile" class="form-label">Perfil</label>
+              <select id="profile" class="form-select" required>
+                <option value="">Selecione</option>
+                <option value="Gerente">Gerente</option>
+                <option value="Coordenador">Coordenador</option>
+                <option value="Analista">Analista</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="whatsapp" class="form-label">WhatsApp</label>
+              <input
+                type="text"
+                id="whatsapp"
+                class="form-control"
+                placeholder="( ) 00000-0000"
+                required
+              />
+            </div>
+            <button type="submit" class="btn btn-primary w-100">
+              Adicionar Usuário
             </button>
-            <button type="button" class="btn btn-danger" id="confirmDelete">
-              Excluir
-            </button>
-          </div>
+          </form>
         </div>
       </div>
     </div>
 
+    <script src="cadastro.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="../js/cadastro.js"></script>
   </body>
 </html>
