@@ -39,6 +39,6 @@
 #### -- Menu responsivo ao chegar em determinada resolução
 
 
-#### -- Enoy -- ####
+#### -- Enjoy -- ####
 
 
